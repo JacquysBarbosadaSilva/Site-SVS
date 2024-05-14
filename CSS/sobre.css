@@ -5,20 +5,19 @@
 }
 
 nav {
-    background-color: black;
-    padding: 5px 0px;
-    margin-bottom: 50px;
+    background-color: #1A222f;
+    padding: 5px 0px; 
     list-style-type: none;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
     width: 100%;
     top: 0;
     left: 0;
-}
+    z-index: 1000;
 
+}
 nav .nav-links ul {
     margin-right: 20px;
     list-style-type: none;
@@ -96,4 +95,67 @@ main {
     font-size:medium;
     color: rgb(40, 60, 207);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* --------------------------Footer------------------------------ */
+footer {
+    position: static;
+    background-color: #1A222f;
+    color: aliceblue;
+    padding: 20px;
+    bottom: 0;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+footer div ul li{
+    list-style-type: none;
+}
+
+.contato{
+    border-right: 2px solid white;
+}
+
+.telefone{
+    border-right: 2px solid white;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+button{
+    background-color: black; 
+    color: #fff; 
+    padding: 10px 20px; 
+    width: 80px;
+    height: 30;
+    border: none; 
+    border-radius: 3px; 
+    font-size: 12px; 
+    font-weight: bold;
+    cursor: pointer; 
+}  
+
+button a{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.botao{
+    margin: 0 auto;
+    display: block;
+    padding: 10px !important;
+}
+
+input{
+    padding: 5px; 
+    margin-bottom: 10px;
+    border: 2px solid #ccc; 
+    border-radius: 3px; 
+    font-size: 14px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
 }

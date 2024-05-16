@@ -86,6 +86,10 @@ main {
     text-align: center;
 }
 
+main h2{
+    border-bottom: 2px solid black;
+}
+
 .news-container {
     display: grid;
     grid-template-columns: 1fr 1fr;

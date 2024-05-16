@@ -9,6 +9,12 @@ header {
     top: 0;
 }
 
+header {
+    position: sticky;
+    left: 0;
+    top: 0;
+}
+
 nav {
     background-color: #1A222f;
     padding: 5px 0px; 
@@ -53,6 +59,14 @@ nav .nav-links ul li a {
     padding: 15px;
 
 }
+
+nav div ul li a:hover {
+    background-color: #D5DCE5;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+
 
 nav div ul li a:hover {
     background-color: #D5DCE5;

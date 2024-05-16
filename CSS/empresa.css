@@ -10,10 +10,9 @@ header {
     top: 0;
 }
 
-
 nav {
-    background-color:#1A222F;
-    padding: 5px 0px;
+    background-color: #1A222f;
+    padding: 5px 0px; 
     list-style-type: none;
     color: white;
     display: flex;

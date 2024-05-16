@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-/* --------------------Index-------------------- */
+/* --------------------Nav-------------------- */
 header {
     position: sticky;
     left: 0;
@@ -62,7 +62,7 @@ nav div ul li a:hover {
     border-radius: 10px;
 }
 
-/* --------------------Empressa-------------------- */
+/* --------------------Empressa informações-------------------- */
 
 #lista-missao h3{
     margin-top: 15px;
@@ -97,7 +97,7 @@ nav div ul li a:hover {
 .grid{
     display: flex;
     justify-content: center;
-    background-color: black;
+    background-color:black;
     color: #fff;
     border-radius: 10px;
     padding: 20px;
@@ -106,6 +106,7 @@ nav div ul li a:hover {
     border-bottom: 2px solid;
     width: 900px;
     text-align: center;
+    margin-top: 20px;
 }
 
 main{
@@ -121,18 +122,203 @@ main{
 
 }
 
+#img-tecnologia{
+    margin: auto;
+    margin-top: 15px;
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+
 #img-pedestres{
     margin: auto;
     margin-top: 15px;
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+#img-infraestrutura{
+    margin: auto;
+    margin-top: 15px;
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
 }
 
 #img-semaforo{
     margin: auto;
     margin-top: 15px;
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+#img-qualidade{
+    margin: auto;
+    margin-top: 15px;
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+#img-sustentabilidade{
+    margin: auto;
+    margin-top: 15px;
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+#img-segurança{
+    margin: auto;
+    margin-top: 15px;
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+#img-eficiencia{
+    margin: auto;
+    margin-top: 15px;
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+#img-colaboração{
+    margin: auto;
+    margin-top: 15px;
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+#img-responsabilidade{
+    margin: auto;
+    margin-top: 15px;
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
 }
 
 .grid ul li{
     text-align: center;
     display: flex;
     justify-content: center;
+}
+
+/* --------------------Integrantes-------------------- */
+
+.integrantes{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    justify-content: center;
+    background-color:black;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    border-bottom: 2px solid;
+    width: 350px;
+    text-align:center;
+}
+
+#img-flavia{
+    width: 150px;
+    height: 150px;
+    border-radius: 600px;
+}
+
+#img-jacquys{
+    height: 150px;
+    width: 150px;
+    border-radius: 600px;
+}
+
+#img-miguel{
+    height: 150px;
+    width: 150px;
+    border-radius: 600px;
+}
+
+#img-nicole{
+    height: 150px;
+    width: 150px;
+    border-radius: 600px;
+}
+
+#card-img{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.grid #inform-valores h3{
+    margin-top: 10px;
+}
+
+/* --------------------------Footer------------------------------ */
+footer {
+    margin-top: 20px;
+    position: static;
+    background-color: #1A222f;
+    color: aliceblue;
+    padding: 20px;
+    bottom: 0;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+
+footer div ul li{
+    list-style-type: none;
+}
+
+.contato{
+    border-right: 2px solid white;
+}
+
+.telefone{
+    border-right: 2px solid white;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+button{
+    background-color: black; 
+    color: #fff; 
+    padding: 10px 20px; 
+    width: 80px;
+    height: 30;
+    border: none; 
+    border-radius: 3px; 
+    font-size: 12px; 
+    font-weight: bold;
+    cursor: pointer; 
+}  
+
+button a{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.botao{
+    margin: 0 auto;
+    display: block;
+    padding: 10px !important;
+}
+
+input{
+    padding: 5px; 
+    margin-bottom: 10px;
+    border: 2px solid #ccc; 
+    border-radius: 3px; 
+    font-size: 14px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

@@ -10,7 +10,7 @@ h1{
     padding: 20px;
 }
 
-/* --------------------Nav-------------------- */
+/* --------------------Index-------------------- */
 header {
     position: sticky;
     left: 0;
@@ -67,17 +67,14 @@ nav div ul li a:hover {
     border: 1px solid;
     border-radius: 10px;
 }
-
-/* --------------------Empressa informações-------------------- */
+/* --------------------------Bem-Vindo------------------------------ */
 
 main{
     background-image: url(../img/fundo\ empresa.png);
-}
-h2{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 50px;
-    margin-bottom: 15px;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .formatacao{
@@ -94,7 +91,6 @@ h2{
 
 .formatacao ul{
     list-style-type: none;
-    text-align: justify;
     color: black;
     text-align: justify;
     line-height: 40px;
@@ -102,27 +98,6 @@ h2{
 
 .formatacao h2{
     text-align: center;
-}
-
-#img-pedestres{
-    width: 450px;
-}
-
-#img-semaforo{
-    width: 550px;
-}
-
-main{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.grid div ul li{
-    list-style-type: none;
-    text-align: justify;
-
 }
 
 #img-tecnologia{
@@ -203,64 +178,6 @@ main{
     height: 250px;
     width: 250px;
     border-radius: 10px;
-}
-
-.grid ul li{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-}
-
-/* --------------------Integrantes-------------------- */
-
-.integrantes{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    justify-content: center;
-    background-color:black;
-    color: #fff;
-    border-radius: 10px;
-    padding: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
-    border-bottom: 2px solid;
-    width: 350px;
-    text-align:center;
-}
-
-#img-flavia{
-    width: 150px;
-    height: 150px;
-    border-radius: 600px;
-}
-
-#img-jacquys{
-    height: 155px;
-    width: 155px;
-    border-radius: 600px;
-}
-
-#img-miguel{
-    height: 150px;
-    width: 150px;
-    border-radius: 600px;
-}
-
-#img-nicole{
-    height: 150px;
-    width: 150px;
-    border-radius: 600px;
-}
-
-#card-img{
-    margin-top: 20px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-}
-
-.grid #inform-valores h3{
-    margin-top: 10px;
 }
 
 /* --------------------------Footer------------------------------ */

@@ -52,13 +52,11 @@ nav .nav-links ul li a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration: none;
     padding: 15px;
-
+    margin-left: 50px;
 }
 
 nav div ul li a:hover {
-
     border-bottom: 1px solid;
-    border-radius: 10px;
 }
 
 /* --------------------Empressa informações-------------------- */
@@ -70,6 +68,7 @@ h1{
     margin-bottom: 15px;
     color: white;
     font-size: 35px;
+    margin-bottom: 100px;
 }
 
 

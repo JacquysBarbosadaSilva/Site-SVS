@@ -61,9 +61,7 @@ nav .nav-links ul li a {
 }
 
 nav div ul li a:hover {
-    background-color: #D5DCE5;
-    border: 1px solid;
-    border-radius: 10px;
+    border-bottom: 1px solid;
 }
 
 

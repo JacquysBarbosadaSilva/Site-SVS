@@ -1,89 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="../CSS/empresa-1.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/empresa.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-links">
+                <ul>
+                    <a href="../index.html"><img src="../img/logo-empresa.png" alt="Logo da empresa"></a>
+                    <li><a href="../html/noticias.html">Notícias</a></li>
+                    <li><a href="../html/produto.html">Produto</a></li>
+                    <li><a href="../html/empresa.html">Empresa</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
 
-    <body>
-        <header>
-            <nav>
-                <div class="nav-links">
-                    <ul>
-                        <a href="../index.html"><img src="../img/logo-empresa.png" alt="Logo da empresa"></a>
-                        <li><a href="../html/noticias.html">Notícias</a></li>
-                        <li><a href="../html/produto.html">Produto</a></li>
-                        <li><a href="../html/empresa.html">Empresa</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
+        <div id="fundo-missoes">
+            <h1>Missões da Empresa</h1>
+        </div>
+        
 
-        <main>
-            <h1 id="h1-missao">Missões da Empresa</h1>
+            <div class="grid-missao">
 
-            <div class="formatacao">
+                <div class="formatacao">
 
-                <div class="secoes">
-                    <h2>Implementação de modos de sinalização eficiente</h2>
+                    <h3>Implementação de modos de sinalização eficiente</h3>
                     <ul>
                         <li>Análise abrangente das áreas de tráfego</li>
                         <li>Investimento em tecnologias avançadas de sinalização</li>
                         <li>Desenvolvimento de programas de educação pública</li>
-                        </ul>
-                    <img id="img-tecnologia" src="../img/img-semaforo2.jpg" alt="">
+                    </ul>
+                    <img id="img-sinalização" src="../img/img-sinalização.png" alt="">
                 </div>
-
-                <div class="secoes">
-                    <h2>Otimizar a Comunicação entre Pedestres e Condutores</h2>
+                    
+                <div class="formatacao">
+                    <h3>Otimizar a Comunicação entre Pedestres e Condutores</h3>
                     <ul>
                         <li>Campanhas de conscientização para pedestres e condutores</li>
                         <li>Medidas de engenharia para melhorar a segurança dos pedestres</li>
                         <li>Desenvolvimento de aplicativos ou plataformas online para informações em tempo real</li>
                     </ul>
-                    <img id="img-pedestres" src="../img/img-pedestres.jpg" alt="Pedestres Passando">
+                    <img id="img-pedestres" src="../img/img-pedestres.png" alt="Pedestres Passando">
+                </div>
+                    
+                <div class="formatacao">
+                    <h3>Melhorar a Infraestrutura e Tecnologia Local</h3>
+                    <ul>
+                        <li>Modernização da infraestrutura viária</li>
+                        <li>Integração de tecnologias avançadas de monitoramento e vigilância</li>
+                        <li>Colaboração com autoridades locais e empresas de tecnologia para soluções inovadoras</li>
+                    </ul>
+                    <img id="img-tecnologia" src="../img/img-tecnologia.png" alt="">
+                </div>  
+                    
+                <div class="formatacao">
+                    <h3>Qualidade dos Produtos</h3>
+                    <ul>
+                        <li>Pesquisa de mercado e feedback dos clientes</li>
+                        <li>Investimento em pesquisa e desenvolvimento</li>
+                        <li>Implementação de processos rigorosos de controle de qualidade</li>
+                    </ul>
+                    <img id="img-qualidade" src="../img/img-qualidade.png" alt="">
                 </div>
 
             </div>
 
-        </main>
+            <div class="grid">
+                
+                <div id="inform-valores">
+                    <h1>Valores da Empresa</h1>
+        
+                    <h3>Inovação Tecnológica Sustentável</h3>
+                    <p>Priorizamos a inovação tecnológica de forma sustentável para criar semáforos inteligentes eficientes e ecologicamente responsáveis.</p>
+                    <img id="img-sustentabilidade" src="../img/img-tecnologia.png" alt="">
+        
+                    <h3>Segurança e Mobilidade para Todos</h3>
+                    <p>Comprometemo-nos a garantir a segurança e promover a mobilidade inclusiva para pedestres, ciclistas e motoristas.</p>
+                    <img id="img-segurança" src="../img/img-segurança.png" alt="">
 
-        <footer>
-            <div class="footer">
-                <div class="contato">
-                    <h2>Contato:</h2>
-                    <ul>
-                        <li>flaviaglenda@gmail.com</li>
-                        <li>jacquys0801@gmail.com</li>
-                        <li>miguelfranciscodasilvasalessal@gmail.com</li>
-                        <li>nicolecafalloni9@gmail.com</li>
-                    </ul>
-                </div>
-    
-                <div class="telefone">
-                    <h2>Telefone:</h2>
-                    <ul>
-                        <li>+55 (12) 98712-8330</li>
-                        <li>+55 (12) 99185-4431</li>
-                        <li>+55 (12) 99646-4219</li>
-                        <li>+55 (12) 99125-4471</li>
-                    </ul>
-                </div>
-    
-                <div class="duvidas">
-                    <h2>Dúvidas?</h2>
-                    <form action="">
-                        <label for="text">Escreva a sua dúvida:</label>
-                        <input type="text" id="text" name="text" required>
-    
-                        <button class="botao" type="submit">
-                            <a href="../html/index.html">Enviar</a>
-                        </button>
-                    </form>
+                    <h3>Eficiência Urbana e Redução de Emissões</h3>
+                    <p>Buscamos contribuir para cidades mais eficientes e sustentáveis, reduzindo congestionamentos e minimizando as emissões de poluentes.</p>
+                    <img id="img-eficiencia" src="../img/img-eficiencia.png" alt="">
+        
+                    <h3>Colaboração e Engajamento Comunitário</h3>
+                    <p>Valorizamos a colaboração com todas as partes interessadas para desenvolver soluções de mobilidade inteligente adaptadas às necessidades de cada comunidade.</p>
+                    <img id="img-colaboração" src="../img/img-colaboração.png" alt="">
+        
+                    <h3>Transparência e Responsabilidade Social</h3>
+                    <p>Mantemos altos padrões de transparência e responsabilidade social, promovendo uma cultura de ética e responsabilidade ambiental.</p>
+                    
+                    <img id="img-responsabilidade" src="../img/img-responsabilidade.png" alt="">
                 </div>
             </div>
-        </footer>
-    </body>
+            <div id="card-img">
+                <div class="integrantes">
+                    <img id="img-flavia"  src="../img/img-flavia.png" alt="Foto da Integrante Flávia">
+                    <h2>Flávia Glenda</h2>
+                    <p>Desenvolvedora</p>
+                </div>
+    
+                <div class="integrantes" >
+                    <img id="img-jacquys" src="../img/img-jacquys.png" alt="Foto da Integrante Jacquys">
+                    <h2>Jacquys Barbosa</h2>
+                    <p>Po</p>
+                    <p>Desenvolvedor</p>
+                </div>
+    
+                <div class="integrantes" >
+                    <img id="img-miguel" src="../img/img-miguel.png" alt="Foto da Integrante Miguel">
+                    <h2>Miguel Sales</h2>
+                    <p>Desenvolvedor</p>
+                </div>
+    
+                <div class="integrantes">
+                    <img id="img-nicole" src="../img/img-nicole.png" alt="Foto da Integrante Nicole">
+                    <h2>Nicole Cafalloni</h2>
+                    <p>Desenvolvedora</p>
+                </div>
+            </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="contato">
+                <h2>Contato:</h2>
+                <ul>
+                    <li>flaviaglenda15@gmail.com</li>
+                    <li>jacquys0801@gmail.com</li>
+                    <li>miguelfranciscodasilvasalessal@gmail.com</li>
+                    <li>nicolecafalloni9@gmail.com</li>
+                </ul>
+            </div>
+
+            <div class="telefone">
+                <h2>Telefone:</h2>
+                <ul>
+                    <li>+55 (12) 98712-8330</li>
+                    <li>+55 (12) 99185-4431</li>
+                    <li>+55 (12) 99646-4219</li>
+                    <li>+55 (12) 99125-4471</li>
+                </ul>
+            </div>
+
+            <div class="duvidas">
+                <h2>Dúvidas?</h2>
+                <form action="">
+                    <label for="text">Escreva a sua dúvida:</label>
+                    <input type="text" id="text" name="text" required>
+
+                    <button class="botao" type="submit">
+                        <a href="./duvida.html">Enviar</a>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>

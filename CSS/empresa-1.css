@@ -3,14 +3,11 @@
     padding: 0;
 }
 
-h1{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 25px;
-    border-bottom: 2px solid black;
-    padding: 20px;
+body{
+    background-color: #F4F4F4;
 }
 
-/* --------------------Index-------------------- */
+/* --------------------Nav-------------------- */
 header {
     position: sticky;
     left: 0;
@@ -63,122 +60,36 @@ nav .nav-links ul li a {
 }
 
 nav div ul li a:hover {
-    background-color: #D5DCE5;
-    border: 1px solid;
+
+    border-bottom: 1px solid;
     border-radius: 10px;
 }
-/* --------------------------Bem-Vindo------------------------------ */
 
-main{
-    background-image: url(../img/fundo\ empresa.png);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
+/* --------------------Empressa informações-------------------- */
 
-.formatacao{
-    width: 900px;
-    display: grid;
-    justify-content: center;
-    background-color: white;
-    border-radius: 10px;
-    padding: 20px;
+h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
-    border-bottom: 2px solid;
+    font-weight: bold;
+    border-bottom: 2px solid white;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 35px;
 }
 
-.formatacao ul{
-    list-style-type: none;
-    color: black;
-    text-align: justify;
-    line-height: 40px;
+
+#fundo-missoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100%;
+    background-image: url(../img/Fundo\ Empresa.jpg);
+    background-size: cover;
+
+    z-index: -1 !important;
 }
 
-.formatacao h2{
-    text-align: center;
-}
 
-#img-tecnologia{
-    margin: auto;
-    margin-top: 15px;
-    height: 250px;
-    width: 250px;
-    border-radius: 10px;
-}
-
-#img-pedestres{
-    margin: auto;
-    margin-top: 15px;
-    height: 250px;
-    width: 250px;
-    border-radius: 10px;
-}
-
-#img-infraestrutura{
-    margin: auto;
-    margin-top: 15px;
-    height: 250px;
-    width: 250px;
-    border-radius: 10px;
-}
-
-#img-semaforo{
-    margin: auto;
-    margin-top: 15px;
-    height: 250px;
-    width: 250px;
-    border-radius: 10px;
-}
-
-#img-qualidade{
-    margin: auto;
-    margin-top: 15px;
-    height: 250px;
-    width: 250px;
-    border-radius: 10px;
-}
-
-#img-sustentabilidade{
-    margin: auto;
-    margin-top: 15px;
-    height: 250px;
-    width: 250px;
-    border-radius: 10px;
-}
-
-#img-segurança{
-    margin: auto;
-    margin-top: 15px;
-    height: 250px;
-    width: 250px;
-    border-radius: 10px;
-}
-
-#img-eficiencia{
-    margin: auto;
-    margin-top: 15px;
-    height: 250px;
-    width: 250px;
-    border-radius: 10px;
-}
-
-#img-colaboração{
-    margin: auto;
-    margin-top: 15px;
-    height: 250px;
-    width: 250px;
-    border-radius: 10px;
-}
-
-#img-responsabilidade{
-    margin: auto;
-    margin-top: 15px;
-    height: 250px;
-    width: 250px;
-    border-radius: 10px;
-}
 
 /* --------------------------Footer------------------------------ */
 footer {

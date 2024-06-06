@@ -3,13 +3,6 @@
     padding: 0;
 }
 
-h1{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 25px;
-    border-bottom: 2px solid black;
-    padding: 20px;
-}
-
 /* --------------------Nav-------------------- */
 header {
     position: sticky;
@@ -59,65 +52,17 @@ nav .nav-links ul li a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration: none;
     padding: 15px;
-    margin-left: 50px;
+
 }
 
 nav div ul li a:hover {
+
     border-bottom: 1px solid;
+    border-radius: 10px;
 }
 
 /* --------------------Empressa informações-------------------- */
 
-<<<<<<< HEAD
-main{
-    background-image: url(../img/fundo\ empresa.png);
-}
-h2{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 50px;
-    margin-bottom: 15px;
-    
-}
-
-.formatacao{
-    width: 900px;
-    display: grid;
-    justify-content: center;
-    background-color: white;
-    border-radius: 10px;
-    padding: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
-    border-bottom: 2px solid;
-}
-
-.formatacao ul{
-    list-style-type: none;
-    text-align: justify;
-    color: black;
-    text-align: justify;
-    line-height: 40px;
-}
-
-.formatacao h2{
-    text-align: center;
-}
-
-#img-pedestres{
-    width: 450px;
-}
-
-#img-semaforo{
-    width: 550px;
-}
-
-main{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-=======
 h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
@@ -125,7 +70,6 @@ h1{
     margin-bottom: 15px;
     color: white;
     font-size: 35px;
-    margin-bottom: 100px;
 }
 
 
@@ -155,7 +99,6 @@ h1{
     margin-top: 20px;
 }
 
->>>>>>> 7d882ab73d591ff0a5b213f13fd34118d5e197d6
 
 .grid div ul li{
     list-style-type: none;
@@ -314,8 +257,8 @@ main{
 }
 
 #img-jacquys{
-    height: 155px;
-    width: 155px;
+    height: 150px;
+    width: 150px;
     border-radius: 600px;
 }
 

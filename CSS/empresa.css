@@ -26,6 +26,7 @@ nav {
     width: 100%;
     top: 0;
     left: 0;
+    
 }
 
 nav .nav-links ul {
@@ -79,7 +80,7 @@ h1{
     font-size: 100px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
     line-height: 1.2;
-    
+    border-radius: 10px;
 }
 
 h2{
@@ -187,7 +188,7 @@ h3{
 
 .text-valores p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 30px;
     width: 900px;
     line-height: 45px;
@@ -198,9 +199,9 @@ h3{
 .img-valores{
     display: flex;
     justify-content: center;
-    height: 600px;
+    height: 450px;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 100px;
 }
 .right{
     margin: auto;

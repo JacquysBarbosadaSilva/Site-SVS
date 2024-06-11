@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -9,37 +9,27 @@ header {
     top: 0;
 }
 
-header {
-    position: sticky;
-    left: 0;
-    top: 0;
-}
 
 nav {
-    background-color: #1A222f;
-    padding: 5px 0px; 
+    background-color: #1A222F;
+    padding: 5px 0px;
+    margin-bottom: 50px;
     list-style-type: none;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
     width: 100%;
     top: 0;
     left: 0;
     z-index: 1000;
-
 }
 
 nav .nav-links ul {
     margin-right: 20px;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     display: flex;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -54,23 +44,14 @@ nav .nav-links ul li a {
     color: aliceblue;
     font-size: 20px;
     font-weight: bold;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration: none;
     padding: 15px;
-
 }
 
 nav div ul li a:hover {
     border-bottom: 1px solid;
 }
 
-
-
-nav div ul li a:hover {
-    background-color: #D5DCE5;
-    border: 1px solid;
-    border-radius: 10px;
-}
 
 main {
     font-size: x-large;
@@ -84,7 +65,7 @@ main {
     text-align: center;
 }
 
-main h2{
+main h2 {
     border-bottom: 2px solid black;
 }
 
@@ -97,6 +78,11 @@ main h2{
 
 .news-item {
     margin: 10px;
+    transition: transform 0.3s ease; 
+}
+
+.news-item:hover {
+    transform: scale(1.05); 
 }
 
 .news-item img {
@@ -124,25 +110,25 @@ footer {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-footer div ul li{
+footer div ul li {
     list-style-type: none;
 }
 
-.contato{
+.contato {
     border-right: 2px solid white;
 }
 
-.telefone{
+.telefone {
     border-right: 2px solid white;
 }
 
-.footer{
+.footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 50px;
 }
 
-button{
+button {
     background-color: black; 
     color: #fff; 
     padding: 10px 20px; 
@@ -155,24 +141,23 @@ button{
     cursor: pointer; 
 }  
 
-button a{
+button a {
     margin: 10px;
     text-decoration: none;
     color: white;
 }
 
-.botao{
+.botao {
     margin: 0 auto;
     display: block;
     padding: 10px !important;
 }
 
-input{
+input {
     padding: 5px; 
     margin-bottom: 10px;
     border: 2px solid #ccc; 
     border-radius: 3px; 
     font-size: 14px; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-     
 }

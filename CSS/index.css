@@ -143,15 +143,22 @@ main h2{
     border-bottom: 2px solid;
     
 }
-
-main #importancia p{
+main #importancia ul{
+    border-top: white;
+    margin: auto;
+    align-items: center;
+}
+main #importancia ul li{
+    margin-top: 20px;
     color: #fff;
     text-align: justify;
     line-height: 40px;
+    list-style-type: none;
     /* margin-top: 50px; */
 }
 
 #importancia img {
+    margin: auto;
     max-width: 100%;
     height: auto;
     border-radius: 10px;
